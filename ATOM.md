@@ -23,3 +23,8 @@ I worked a lot with Sublime Text editor. Now I try to get back all good sides of
 
 Open Aom, click on Atom near Apple logo and select Preferences. In left side select `Packages` and search next list of packages. Press `Install` button near found package.
 - [project-manager](https://atom.io/packages/project-manager) - sidebar to control projects
+- [linter](https://atom.io/packages/linter) - validate your code to avoid errors
+  - [linter-pep8](https://atom.io/packages/linter-pep8) - PEP8 for Python
+  - [linter-pylint](https://atom.io/packages/linter-pylint) - check python code
+  - [linter-jshint](https://atom.io/packages/linter-jshint) - validate JavaScript and JSON
+- 
