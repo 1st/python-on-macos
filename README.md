@@ -3,8 +3,15 @@ How to setup python environment on Mac OS X Yosemite
 
 On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)`.
 
+
 HomeBrew
 ----------
+
+Before you start, open `Terminal` application and install **Xcode command-line tool**. It's required to install a lot of software on your Mac.
+
+```
+xcode-select --install
+```
 
 Install [HomeBrew](http://brew.sh) to have ability to install up-to-date software, like `apt-get install` in `Ubuntu`.
 
@@ -64,6 +71,14 @@ Python tools
 - `brew install python`
 - `pip install virtualenv`
 - `pip install virtualenvwrapper`
+
+
+### Django completion
+
+Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and press `<tab>` key two times
+
+- `cd /usr/local/etc/bash_completion.d/`
+- `wget https://raw.github.com/django/django/master/extras/django_bash_completion`
 
 
 Post-installation
