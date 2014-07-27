@@ -26,5 +26,7 @@ Open Aom, click on Atom near Apple logo and select Preferences. In left side sel
 - [linter](https://atom.io/packages/linter) - validate your code to avoid errors
   - [linter-pep8](https://atom.io/packages/linter-pep8) - PEP8 for Python
   - [linter-pylint](https://atom.io/packages/linter-pylint) - check python code
-  - [linter-jshint](https://atom.io/packages/linter-jshint) - validate JavaScript and JSON
-- 
+  - [linter-jshint](https://atom.io/packages/linter-jshint) - validate JavaScript
+  - [linter-jsonlint](https://atom.io/packages/linter-jsonlint) - lint JSON
+  - [linter-csslint](https://atom.io/packages/linter-csslint) - lint CSS
+- [git-plus](https://atom.io/packages/git-plus) - use Git in Atom from keyboard
