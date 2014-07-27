@@ -87,7 +87,7 @@ Post-installation
 
 - create virtual environments for projects `mkvirtualenv [env_name]` and run `pip install -r requirements.txt`
 - restore MySQL databases
-- restore mongodb collections
+- restore mongodb collections: 1. `mongodump --out backup/` 2. `mongorestore backup/`
 
 
 Software
