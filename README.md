@@ -104,7 +104,7 @@ This is my list of sofrware that I use:
 - [Sublime Text 3](http://www.sublimetext.com/3)
 - [Atom](https://atom.io)
 - [VirtualBox](https://www.virtualbox.org)
-- [TunnelBlick](https://code.google.com/p/tunnelblick/)
+- [TunnelBlick](https://code.google.com/p/tunnelblick/) - graphical OpenVPN for Mac
 - [uTorrent](http://www.utorrent.com) - torrent client
 - [Team Viewer](http://www.teamviewer.com/en/index.aspx) - share your screen
 - [Google Music Manager](https://support.google.com/googleplay/answer/1229970) - upload music to Google Play
