@@ -61,9 +61,9 @@ username = User Name <user@gmail.com>
 Python tools
 ----------
 
-- brew install python
-- pip install virtualenv
-- pip install virtualenvwrapper
+- `brew install python`
+- `pip install virtualenv`
+- `pip install virtualenvwrapper`
 
 
 Post-installation
