@@ -93,7 +93,7 @@ This is my list of sofrware that I use:
 - [Team Viewer](http://www.teamviewer.com/en/index.aspx) - share your screen
 - [Google Music Manager](https://support.google.com/googleplay/answer/1229970) - upload music to Google Play
 - --- optional ---
-- [XMind](http://www.xmind.net) - 
+- [XMind](http://www.xmind.net) - save your minds in graphical representation
 - [Inkspape](http://www.inkscape.org/en/) - free vector graphic tool. Require to install [XQuartz](http://xquartz.macosforge.org/landing/)
 - [LVC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
