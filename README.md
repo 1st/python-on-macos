@@ -3,6 +3,9 @@ How to setup python environment on Mac OS X Yosemite
 
 On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)`.
 
+Also read:
+- [how to configure Atom editor](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
+
 
 Know issues
 ----------
