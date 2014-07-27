@@ -4,6 +4,13 @@ How to setup python environment on Mac OS X Yosemite
 On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)`.
 
 
+Know issues
+----------
+
+Now now work some applications on OS X Yosemite:
+- `mongodb` - when we try to install via `brew` we see error. Workaround found [stackoverflow](http://stackoverflow.com/questions/24052145/trouble-reinstalling-mongodb-with-homebrew-using-os-x-10-10-yosemite-beta/24206768#24206768)
+
+
 HomeBrew
 ----------
 
