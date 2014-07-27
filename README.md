@@ -80,22 +80,22 @@ Software
 This is my list of sofrware that I use:
 
 - From App Store: Pages, Numbers, Keynote, Pixelmator, iDraw, 1Password, The Unarchiver, Pocket
-- DropBox
-- Skype
-- Google Chrome
-- SourceTree
-- MySQL Workbench
-- Sublime Text 3
-- Atom
-- VirtualBox
-- TunnelBlick
-- uTorrent
-- Team Viewer
-- Google Music Manager
+- [DropBox](https://www.dropbox.com)
+- [Skype](http://www.skype.com)
+- [Google Chrome](http://www.google.com/chrome)
+- [SourceTree](http://www.sourcetreeapp.com)
+- [MySQL Workbench](http://dev.mysql.com/downloads/workbench/)
+- [Sublime Text 3](http://www.sublimetext.com/3)
+- [Atom](https://atom.io)
+- [VirtualBox](https://www.virtualbox.org)
+- [TunnelBlick](https://code.google.com/p/tunnelblick/)
+- [uTorrent](http://www.utorrent.com) - torrent client
+- [Team Viewer](http://www.teamviewer.com/en/index.aspx) - share your screen
+- [Google Music Manager](https://support.google.com/googleplay/answer/1229970) - upload music to Google Play
 - --- optional ---
-- XMind
-- Inkspape, XQuartz
-- LVC Video Player
+- [XMind](http://www.xmind.net) - 
+- [Inkspape](http://www.inkscape.org/en/) - free vector graphic tool. Require to install [XQuartz](http://xquartz.macosforge.org/landing/)
+- [LVC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
 
 Setup OS X integration with web sites
