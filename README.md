@@ -79,6 +79,7 @@ Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and
 
 - `cd /usr/local/etc/bash_completion.d/`
 - `wget https://raw.github.com/django/django/master/extras/django_bash_completion`
+- `source ~/.profile` to affect changes
 
 
 Post-installation
