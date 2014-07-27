@@ -101,8 +101,6 @@ This is my list of sofrware that I use:
 Setup OS X integration with web sites
 ----------
 
-- Login to google.com and auto-setup OS X to work with: mail, calendar, etc
-- Login to facebook and auto-setup OS X
-- Login to twitter and auto-setup OS X
-- Login to linkedin and auto-setup OS X
-- Login to github and bitbucket
+- Login to [google.com](google.com) and auto-setup OS X to work with: mail, calendar, etc
+- Login to [facebook](facebook.com), [twitter](twitter.com) and [linkedin](linkedin.com) and allow auto-setup OS X
+- Login to [github](github.com) and [bitbucket](bitbucket.org)
