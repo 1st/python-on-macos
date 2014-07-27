@@ -29,4 +29,5 @@ Open Aom, click on Atom near Apple logo and select Preferences. In left side sel
   - [linter-jshint](https://atom.io/packages/linter-jshint) - validate JavaScript
   - [linter-jsonlint](https://atom.io/packages/linter-jsonlint) - lint JSON
   - [linter-csslint](https://atom.io/packages/linter-csslint) - lint CSS
+  - [autocomplete-plus](https://atom.io/packages/autocomplete-plus) - autocompletion
 - [git-plus](https://atom.io/packages/git-plus) - use Git in Atom from keyboard
