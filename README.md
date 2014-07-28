@@ -36,8 +36,8 @@ My list of `brew` software (use `brew install [package_name]`):
 - node
 - wget
 - --- optional ---
-- zookeeper
-- boost --with-python
+- `zookeeper --with-python`
+- `boost --with-python`
 - lynx
 - cairo
 - jpeg
