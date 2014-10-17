@@ -12,7 +12,7 @@ Know issues
 ----------
 
 Now don't work some applications on OS X Yosemite:
-- `mongodb` - when we try to install via `brew` we see error. Workaround found [stackoverflow](http://stackoverflow.com/questions/24052145/trouble-reinstalling-mongodb-with-homebrew-using-os-x-10-10-yosemite-beta/24206768#24206768)
+- `mongodb` - was problem in Beta version of yosemite. In final version it was solved
 
 
 HomeBrew
@@ -75,6 +75,7 @@ Edit `~/.hgrc` and insert info about my user:
 [ui]
 username = User Name <user@gmail.com>
 ```
+
 
 Python tools
 ----------
