@@ -121,7 +121,7 @@ This is my list of sofrware that I use:
 - --- optional ---
 - [XMind](http://www.xmind.net) - save your minds in graphical representation
 - [Inkspape](http://www.inkscape.org/en/) - free vector graphic tool. Require to install [XQuartz](http://xquartz.macosforge.org/landing/)
-- [LVC Video Player](http://www.videolan.org/vlc/download-macosx.html)
+- [VLC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
 
 Setup OS X integration with web sites
