@@ -3,15 +3,12 @@ How to setup python environment on Mac OS X Yosemite
 
 On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)`.
 
-Also read:
-- [How to configure Atom editor on Yosemite](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
-- [How to setup Gmail to work in Mail app on Yosemite](https://miapple.me/fixing-mac-os-x-10-10-yosemite-gmail-bug-mail-app/). After update from Mavericks to Yosemite I have troubles with Mail app - it turned off after few seconds after launch. I have found this solution and it works well for me. Try it. It's easy and solve your problem.
-
 
 Know issues
 ----------
 
 Now don't work some applications on OS X Yosemite:
+- [Gmail doesn't work - Mail app crashes on Yosemite](https://miapple.me/fixing-mac-os-x-10-10-yosemite-gmail-bug-mail-app/). After update from Mavericks to Yosemite I have troubles with Mail app - it turned off after few seconds after launch. I have found this solution and it works well for me. Try it. It's easy and solve your problem.
 - `mongodb` - was problem in Beta version of yosemite. In final version it was solved
 
 
@@ -132,3 +129,9 @@ Setup OS X integration with web sites
 - Login to [google.com](http://google.com) and auto-setup OS X to work with: mail, calendar, etc
 - Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup OS X
 - Login to [github](http://github.com) and [bitbucket](http://bitbucket.org)
+
+
+Read also
+----------
+
+- [How to configure Atom editor on Yosemite](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
