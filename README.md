@@ -151,6 +151,11 @@ My configuration
 - http://www.skype.com/ru/
 - telegram
 - http://www.freemacsoft.net/appcleaner/
+- DjView
+- Evernote
+- Parallels desktop
+- Movies
+- https://centrabit.com/?m0prm=6 Qt Bitcoin Trader
 
 > terminal:
 
