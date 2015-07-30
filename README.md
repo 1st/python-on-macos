@@ -1,15 +1,13 @@
-How to setup python environment on Mac OS X Yosemite
+How to setup python environment on Mac OS X Yosemite and El Capitan
 =============
 
-On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)`.
+On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)` and `El Capitan (10.11)`
 
 
 Know issues
 ----------
 
-Now don't work some applications on OS X Yosemite:
-- [Gmail doesn't work - Mail app crashes on Yosemite](https://miapple.me/fixing-mac-os-x-10-10-yosemite-gmail-bug-mail-app/). After update from Mavericks to Yosemite I have troubles with Mail app - it turned off after few seconds after launch. I have found this solution and it works well for me. Try it. It's easy and solve your problem. As I understand this problem appear if you have a lot of messages (1000+) into Gmail Inbox
-- `mongodb` - was problem in Beta version of yosemite. In final version it was solved
+Nothing yet.
 
 
 HomeBrew
