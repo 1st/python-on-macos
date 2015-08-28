@@ -1,4 +1,4 @@
-How to setup python environment on Mac OS X Yosemite and El Capitan
+How to setup python environment on Mac OS X Yosemite & El Capitan
 =============
 
 On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)` and `El Capitan (10.11)`
@@ -95,6 +95,18 @@ Post-installation
 - create virtual environments for projects `mkvirtualenv [env_name]` and run `pip install -r requirements.txt`
 - restore MySQL databases
 - restore mongodb collections: 1. `mongodump --out backup/` 2. `mongorestore backup/`
+
+
+Python 3 support
+---
+
+To create virtual environment with `python3` support you need to specify path to specific version of python.
+
+```shell
+$ which python3
+/usr/local/bin/python3
+$ mkvirtualenv -p /usr/local/bin/python3 project_name
+```
 
 
 Software
