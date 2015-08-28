@@ -7,7 +7,7 @@ On this page I describe how to setup `python` environment on `Mac OS X Yosemite 
 Know issues
 ----------
 
-Nothing yet.
+Nothing.
 
 
 HomeBrew
@@ -145,3 +145,4 @@ Read also
 ----------
 
 - [How to configure Atom editor on Yosemite](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
+- [How To Setup Ubuntu Web Server](https://github.com/1st/setup-web-server)
