@@ -7,7 +7,7 @@ On this page I describe how to setup `python` environment on **Mac OS X El Capit
 Know issues
 ----------
 
-* [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**.
+* [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**. Then run command `sudo chown -R $(whoami):admin /usr/local` to make this directory writable.
 
 
 HomeBrew
