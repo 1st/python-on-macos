@@ -28,7 +28,7 @@ To install ruby gems, use this command:
 sudo gem install -n /usr/local/bin [package]
 ```
 
-where `[package` is what you need to install (compass, bundler, etc_.
+where `[package]` is what you need to install (compass, bundler, etc).
 
 HomeBrew
 ----------
