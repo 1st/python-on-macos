@@ -7,7 +7,7 @@ On this page I describe how to setup `python` environment on `Mac OS X Yosemite 
 Know issues
 ----------
 
-Nothing.
+* [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to `El Capitan`
 
 
 HomeBrew
