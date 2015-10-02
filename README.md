@@ -1,13 +1,13 @@
 How to setup python environment on Mac OS X Yosemite & El Capitan
 =============
 
-On this page I describe how to setup `python` environment on `Mac OS X Yosemite (10.10)` and `El Capitan (10.11)`
+On this page I describe how to setup `python` environment on **Mac OS X El Capitan (10.11)**.
 
 
 Know issues
 ----------
 
-* [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to `El Capitan`
+* [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**.
 
 
 HomeBrew
@@ -144,5 +144,5 @@ Setup OS X integration with web sites
 Read also
 ----------
 
-- [How to configure Atom editor on Yosemite](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
+- [How to configure Atom editor on El Capitan](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
 - [How To Setup Ubuntu Web Server](https://github.com/1st/setup-web-server)
