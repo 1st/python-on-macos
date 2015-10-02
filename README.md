@@ -7,13 +7,13 @@ On this page I describe how to setup `python` environment on **Mac OS X El Capit
 Know issues
 ----------
 
-### Bad file permissions.
+#### Bad file permissions
 
 [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**.
 
 Then run command `sudo chown -R $(whoami):admin /usr/local` to make this directory writable.
 
-### Homebrew doen't work
+#### Homebrew doen't work
 
 Fix issue with these commands:
 ```
@@ -21,7 +21,7 @@ cd /usr/local/Library
 git pull origin master
 ```
 
-### Ruby gems can't be installed
+#### Ruby gems can't be installed
 
 To install ruby gems, use this command:
 ```
