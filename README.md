@@ -118,11 +118,11 @@ This is my list of sofrware that I use:
 - [Sublime Text 3](http://www.sublimetext.com/3)
 - [Atom](https://atom.io)
 - [VirtualBox](https://www.virtualbox.org)
+- --- optional ---
 - [TunnelBlick](https://code.google.com/p/tunnelblick/) - graphical OpenVPN for Mac
 - [uTorrent](http://www.utorrent.com) - torrent client
 - [Team Viewer](http://www.teamviewer.com/en/index.aspx) - share your screen
 - [Google Music Manager](https://support.google.com/googleplay/answer/1229970) - upload music to Google Play
-- --- optional ---
 - [XMind](http://www.xmind.net) - save your minds in graphical representation
 - [Inkspape](http://www.inkscape.org/en/) - free vector graphic tool. Require to install [XQuartz](http://xquartz.macosforge.org/landing/)
 - [VLC Video Player](http://www.videolan.org/vlc/download-macosx.html)
@@ -133,7 +133,6 @@ Setup OS X integration with web sites
 
 - Login to [google.com](http://google.com) and auto-setup OS X to work with: mail, calendar, etc
 - Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup OS X
-- Login to [github](http://github.com) and [bitbucket](http://bitbucket.org)
 
 
 Read also
