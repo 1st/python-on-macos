@@ -69,6 +69,10 @@ Find this file contents [here](https://gist.github.com/1st/4d8f2bd920cd047ccf1e)
 
 Press `Cmd + O` to save file, `Cmd + X` to exit from nano. Run this command in terminal `source ~/.profile` to load changes.
 
+
+If you use mercurial
+----------
+
 Edit `~/.hgrc` and insert info about my user:
 
 ```
