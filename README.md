@@ -11,13 +11,13 @@ Know issues
 
 When I upgraded from **OS X Mavericks** to **OS X El Capitan**, I found next issues on my MacBook.
 
-#### Bad file permissions
+##### Bad file permissions
 
 [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**.
 
 Then run command `sudo chown -R $(whoami):admin /usr/local` to make this directory writable.
 
-#### Homebrew doen't work
+##### Homebrew doen't work
 
 Fix issue with these commands:
 ```
@@ -25,7 +25,7 @@ cd /usr/local/Library
 git pull origin master
 ```
 
-#### Ruby gems can't be installed
+##### Ruby gems can't be installed
 
 To install ruby gems, use this command:
 ```
@@ -33,6 +33,7 @@ sudo gem install -n /usr/local/bin [package]
 ```
 
 where `[package]` is what you need to install (compass, bundler, etc).
+
 
 HomeBrew
 ----------
@@ -46,20 +47,8 @@ xcode-select --install
 Install [HomeBrew](http://brew.sh) to have ability to install up-to-date software, like `apt-get install` in `Ubuntu`.
 
 My list of `brew` software (use `brew install [package_name]`):
-- memcached
-- mercurial
-- git
-- mysql
-- postgresql
-- mongodb
-- rabbitmq
-- node
-- wget
-- --- optional ---
-- `zookeeper --with-python`
-- `boost --with-python`
-- jpeg
-- libpng
+- **required**: `memcached`, `mercurial`, `git`, `mysql`, `postgresql`, `mongodb`, `rabbitmq`, `node`, `wget`
+- **optional**: `zookeeper --with-python`, `boost --with-python`, `jpeg`, `libpng`
 
 
 System changes
@@ -87,12 +76,13 @@ Python
 ----------
 
 - `brew install python` installs `python` and `pip`
-- `brew install python3` installs `python3` and `pip3`
-- `pip install virtualenv`
-- `pip install virtualenvwrapper`
+- `pip install virtualenv virtualenvwrapper`
 
 
 ### Python 3 support
+
+- `brew install python3` installs `python3` and `pip3`
+- `pip3 install virtualenv virtualenvwrapper`
 
 To create virtual environment with `python3` support you need to specify path to specific version of python.
 
