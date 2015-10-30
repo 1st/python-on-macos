@@ -52,11 +52,9 @@ My list of `brew` software (use `brew install [package_name]`):
 System changes
 ----------
 
-Edit `nano ~/.profile` file to have this lines:
+Edit `nano ~/.profile` file and insert [this content](https://gist.github.com/1st/4d8f2bd920cd047ccf1e).
 
-Find this file contents [here](https://gist.github.com/1st/4d8f2bd920cd047ccf1e).
-
-Press `Cmd + O` to save file, `Cmd + X` to exit from nano. Run this command in terminal `source ~/.profile` to load changes.
+Press `Cmd + O` to save file, `Cmd + X` to exit from nano. Run in terminal `source ~/.profile` to load changes.
 
 
 If you use mercurial
