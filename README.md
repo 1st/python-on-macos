@@ -1,7 +1,6 @@
 How to setup python environment on Mac
 =============
 
-### Mac OS X El Capitan
 
 On this page I describe how to setup `python` environment on **Mac OS X El Capitan (10.11)**.
 
