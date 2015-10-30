@@ -56,14 +56,8 @@ My list of `brew` software (use `brew install [package_name]`):
 - --- optional ---
 - `zookeeper --with-python`
 - `boost --with-python`
-- lynx
-- cairo
 - jpeg
-- jsoncpp
-- gettext
-- glib
 - libpng
-- log4cpp
 
 
 System changes
@@ -71,18 +65,7 @@ System changes
 
 Edit `nano ~/.profile` file to have this lines:
 
-```
-# load all completions
-source /usr/local/etc/bash_completion.d/*
-# load virtual env wrapper
-source virtualenvwrapper.sh
-# Set architecture flags
-export ARCHFLAGS="-arch x86_64"
-# Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:$PATH
-# Load .bashrc if it exists
-test -f ~/.bashrc && source ~/.bashrc
-```
+Find this file contents [here](https://gist.github.com/1st/4d8f2bd920cd047ccf1e).
 
 Press `Cmd + O` to save file, `Cmd + X` to exit from nano. Run this command in terminal `source ~/.profile` to load changes.
 
