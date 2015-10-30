@@ -81,17 +81,29 @@ username = User Name <user@gmail.com>
 ```
 
 
-Python tools
+Python
 ----------
 
 - `brew install python` installs `python` and `pip`
+- `brew install python3` installs `python3` and `pip3`
 - `pip install virtualenv`
 - `pip install virtualenvwrapper`
 
 
+### Python 3 support
+
+To create virtual environment with `python3` support you need to specify path to specific version of python.
+
+```shell
+$ which python3
+/usr/local/bin/python3
+$ mkvirtualenv -p /usr/local/bin/python3 project_name
+```
+
+
 ### Django completion
 
-Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and press `<tab>` key two times
+Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and press `<tab>` button two times.
 
 - `cd /usr/local/etc/bash_completion.d/`
 - `wget https://raw.github.com/django/django/master/extras/django_bash_completion`
@@ -104,18 +116,6 @@ Post-installation
 - create virtual environments for projects `mkvirtualenv [env_name]` and run `pip install -r requirements.txt`
 - restore MySQL databases
 - restore mongodb collections: 1. `mongodump --out backup/` 2. `mongorestore backup/`
-
-
-Python 3 support
----
-
-To create virtual environment with `python3` support you need to specify path to specific version of python.
-
-```shell
-$ which python3
-/usr/local/bin/python3
-$ mkvirtualenv -p /usr/local/bin/python3 project_name
-```
 
 
 Software
