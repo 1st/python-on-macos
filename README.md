@@ -24,6 +24,8 @@ cd /usr/local/Library
 git pull origin master
 ```
 
+See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md).
+
 ##### Ruby gems can't be installed
 
 > To install ruby gems, use this command:
