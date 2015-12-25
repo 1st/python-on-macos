@@ -86,6 +86,8 @@ To create virtual environment with `python3` support you need to specify path to
 
 ```shell
 mkvirtualenv -p `which python3` project_name
+# OR THIS (more elegant)
+mkvirtualenv project_name --python=$(which python3)
 ```
 
 
