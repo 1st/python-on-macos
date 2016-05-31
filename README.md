@@ -47,8 +47,8 @@ xcode-select --install
 Install [HomeBrew](http://brew.sh) to have ability to install up-to-date software, like `apt-get install` in `Ubuntu`.
 
 My list of `brew` software (use `brew install [package_name]`):
-- **required**: `memcached`, `mercurial`, `git`, `mysql`, `postgresql`, `mongodb`, `rabbitmq`, `node`, `wget`
-- **optional**: `zookeeper --with-python`, `boost --with-python`, `jpeg`, `libpng`
+- **required**: `memcached`, `git`, `mysql`, `postgresql`, `node`, `wget`
+- **optional**: `mercurial`, `mongodb`, `rabbitmq`, `zookeeper --with-python`, `boost --with-python`, `jpeg`, `libpng`
 
 
 System changes
