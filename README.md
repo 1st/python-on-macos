@@ -32,7 +32,8 @@ brew reinstall python@2
 
 ### Homebrew doen't work
 
-> Fix issue with these commands:
+Fix issue with these commands:
+
 ```shell
 xcode-select --install
 cd /usr/local/Library
