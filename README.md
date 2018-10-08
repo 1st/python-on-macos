@@ -43,11 +43,13 @@ See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/b
 
 ### Ruby gems can't be installed
 
-> To install ruby gems, use this command:
+To install ruby gems, use this command:
+
 ```shell
 sudo gem install -n /usr/local/bin [package]
 ```
-> where `[package]` is what you need to install (compass, bundler, etc).
+
+where `[package]` is what you need to install (compass, bundler, etc).
 
 
 HomeBrew
