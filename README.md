@@ -1,4 +1,4 @@
-How to setup python environment on Mac
+How to setup python environment on macOS
 =============
 
 
