@@ -17,7 +17,11 @@ Interestengly, but the same (or similar) issues was before, when I've upgraded t
 
 [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **newer version of macOS**.
 
-Then run command `sudo chown -R $(whoami):admin /usr/local` to make this directory writable.
+Then run next command to make this directory writable:
+
+```shell
+sudo chown -R $(whoami):admin /usr/local
+```
 
 ##### Python doesn't work
 
