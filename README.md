@@ -5,13 +5,28 @@ How to setup python environment on macOS
 On this page I describe how to setup `python` environment on **macOS Mojave (10.12)**.
 
 
-Know issues
-----------
+## Know issues
 
 When I recently upgraded to newer version of **macOS** I found few issues on my MacBook.
 Read below about issues and solutions to them.
 
 Interestengly, but the same (or similar) issues was before, when I've upgraded to **macOS Capitan** and **macOS Mavericks**.
+
+### Homebrew doen't work
+
+Fix issue with these commands:
+
+```shell
+xcode-select --install
+cd /usr/local/Library
+git pull origin master
+```
+
+You can try to find some problems by running:
+
+```shell
+brew doctor
+```
 
 ### Bad file permissions
 
@@ -28,16 +43,6 @@ sudo chown -R $(whoami):admin /usr/local
 ```shell
 brew reinstall python
 brew reinstall python@2
-```
-
-### Homebrew doen't work
-
-Fix issue with these commands:
-
-```shell
-xcode-select --install
-cd /usr/local/Library
-git pull origin master
 ```
 
 See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md).
