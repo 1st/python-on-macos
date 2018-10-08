@@ -2,24 +2,28 @@ How to setup python environment on Mac
 =============
 
 
-On this page I describe how to setup `python` environment on **Mac OS X El Capitan (10.11)**.
+On this page I describe how to setup `python` environment on **macOS Mojave (10.12)**.
 
 
 Know issues
 ----------
 
-When I upgraded from **OS X Mavericks** to **OS X El Capitan**, I found next issues on my MacBook.
+When I recently upgraded to newer version of **macOS** I found few issues on my MacBook.
+Read below about issues and solutions to them.
+
+Interestengly, but the same (or similar) issues was before, when I've upgraded to **macOS Capitan** and **macOS Mavericks**.
 
 ##### Bad file permissions
 
-> [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **OS X El Capitan**.
+> [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **newer version of macOS**.
 >
 > Then run command `sudo chown -R $(whoami):admin /usr/local` to make this directory writable.
 
 ##### Homebrew doen't work
 
 > Fix issue with these commands:
-```
+```shell
+xcode-select --install
 cd /usr/local/Library
 git pull origin master
 ```
@@ -29,7 +33,7 @@ See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/b
 ##### Ruby gems can't be installed
 
 > To install ruby gems, use this command:
-```
+```shell
 sudo gem install -n /usr/local/bin [package]
 ```
 > where `[package]` is what you need to install (compass, bundler, etc).
@@ -40,7 +44,7 @@ HomeBrew
 
 Before you start, open `Terminal` application and install **Xcode command-line tool**. It's required to install a lot of software on your Mac.
 
-```
+```shell
 xcode-select --install
 ```
 
