@@ -13,7 +13,7 @@ Read below about issues and solutions to them.
 
 Interestengly, but the same (or similar) issues was before, when I've upgraded to **macOS Capitan** and **macOS Mavericks**.
 
-##### Bad file permissions
+### Bad file permissions
 
 [Repair disk permissions with Disk Utility](https://support.apple.com/en-us/HT201560). It happens that permissions on some files and directories broken after upgrade to **newer version of macOS**.
 
@@ -23,14 +23,14 @@ Then run next command to make this directory writable:
 sudo chown -R $(whoami):admin /usr/local
 ```
 
-##### Python doesn't work
+### Python doesn't work
 
 ```shell
 brew reinstall python
 brew reinstall python@2
 ```
 
-##### Homebrew doen't work
+### Homebrew doen't work
 
 > Fix issue with these commands:
 ```shell
@@ -41,7 +41,7 @@ git pull origin master
 
 See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md).
 
-##### Ruby gems can't be installed
+### Ruby gems can't be installed
 
 > To install ruby gems, use this command:
 ```shell
