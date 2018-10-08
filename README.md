@@ -19,8 +19,10 @@ Interestengly, but the same (or similar) issues was before, when I've upgraded t
 Then run next command to make this directory writable:
 
 ```shell
-sudo chown -R $(whoami):admin /usr/local
+sudo chown -R $(whoami) $(brew --prefix)/*
 ```
+
+Previously it was possible to do like this `sudo chown -R $(whoami):admin /usr/local` but no anymore.
 
 ### Homebrew doen't work
 
