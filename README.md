@@ -104,7 +104,7 @@ Python
 
 ### Python virtualenv
 
-If your virtual environments are broken, then you need to recreate links to the newver version of Python.
+If your virtual environments are broken, then you need to recreate links to the newer version of Python.
 
 Do these two commands *for each* of your project:
 ```shell
