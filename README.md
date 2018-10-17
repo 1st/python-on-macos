@@ -102,6 +102,19 @@ Python
 - `pip install virtualenv virtualenvwrapper`
 
 
+### Python virtualenv
+
+If your virtual environments are broken, then you need to recreate links to the newver version of Python.
+
+Do these two commands *for each* of your project:
+```shell
+# delete all broken links
+find ~/.virtualenvs/my_project_name/ -type l -delete
+# create new links to python
+virtualenv ~/.virtualenvs/my_project_name/
+```
+
+
 ### Python 3 support
 
 - `brew install python3` installs `python3` and `pip3`
