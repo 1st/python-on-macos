@@ -188,22 +188,23 @@ Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and
 
 This is my list of sofrware that I use:
 
+### Development tools
+
+- [Visual Studio Code](https://code.visualstudio.com). In the past I used also [Sublime Text 3](http://www.sublimetext.com/3)
+- [GitHub Desktop](https://desktop.github.com) - GUI for git repos. In the past I also used [SourceTree](http://www.sourcetreeapp.com)
+- [MySQL Workbench](http://dev.mysql.com/downloads/workbench/). Also I use [Postico](https://eggerapps.at/postico/) for Postgres
+- Docker
+
+### Other software
+
 - From App Store: Pages, Numbers, Keynote, Pixelmator, iDraw, 1Password, The Unarchiver, Pocket
 - [DropBox](https://www.dropbox.com)
 - [Skype](http://www.skype.com)
 - [Google Chrome](http://www.google.com/chrome)
-- [SourceTree](http://www.sourcetreeapp.com)
-- [MySQL Workbench](http://dev.mysql.com/downloads/workbench/)
-- [Sublime Text 3](http://www.sublimetext.com/3)
-- [Atom](https://atom.io)
 - [VirtualBox](https://www.virtualbox.org)
-- --- optional ---
 - [TunnelBlick](https://code.google.com/p/tunnelblick/) - graphical OpenVPN for Mac
-- [uTorrent](http://www.utorrent.com) - torrent client
 - [Team Viewer](http://www.teamviewer.com/en/index.aspx) - share your screen
-- [Google Music Manager](https://support.google.com/googleplay/answer/1229970) - upload music to Google Play
 - [XMind](http://www.xmind.net) - save your minds in graphical representation
-- [Inkspape](http://www.inkscape.org/en/) - free vector graphic tool. Require to install [XQuartz](http://xquartz.macosforge.org/landing/)
 - [VLC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
 
@@ -215,5 +216,4 @@ This is my list of sofrware that I use:
 
 ## Read more
 
-- [How to configure Atom editor on El Capitan](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
 - [How To Setup Ubuntu Web Server](https://github.com/1st/setup-web-server)
