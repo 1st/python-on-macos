@@ -14,6 +14,7 @@ When I upgrade to a next major version of **macOS** it's almost always some prob
 - [Homebrew doesn't work](#homebrew-doesnt-work)
 - [Python doesn't work](#python-doesnt-work)
 - [Ruby gems can't be installed](#ruby-gems-cant-be-installed)
+- [How to clean unused homebrew dependencies](#how-to-clean-unused-homebrew-dependencies)
 
 
 ## How to setup macOS
@@ -88,6 +89,15 @@ sudo gem install -n /usr/local/bin [package]
 ```
 
 where `[package]` is what you need to install (compass, bundler, etc).
+
+### How to clean unused homebrew dependencies
+
+Command `brew bundle dump` generates a `Brewfile` with all the packages installed by user. Dependent packages are not listed here. It allows to use this file for the next time to install all listed software wiith one command `brew bundle --force cleanup`.
+
+```
+rew bundle dump
+brew bundle --force cleanup
+```
 
 ----
 
