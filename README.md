@@ -2,21 +2,28 @@ How to setup python environment on macOS
 =============
 
 
-On this page I describe how to setup `python` environment on **macOS Mojave (10.12)**.
+On this page I describe how to setup `python` environment on **macOS Catalina (10.13)**.
 
 
-## Fix broken virtual env after python version upgrade
+## Known problems
 
-I've created an alias that is easy to use every time when you upgrade python version via homebrew, and your virtusl env becomes not working. Use it like this `fix_virtualenv <env_name>` and it will auto-fix your python version by replacing a broken links to an actual version of python.
+When I upgrade to a next major version of **macOS** it's almost always some problems appear - some tools stop working, eapecially if you use your system for software development.
+
+- [Upgraded python version via homebrew and virtual env stopped work](#)
+- [Bad file permissions](#)
+- [Homebrew doen't work](#)
+- [Python doesn't work](#)
+- [Ruby gems can't be installed](#)
+
+----
+
+### Upgraded python version via homebrew and virtual env stopped work
+
+How to fix a broken virtual env after python version upgrade?
+
+I've created an alias that is easy to use every time when you upgrade the python version via homebrew, and your virtusl env becomes not working. Use it like this `fix_virtualenv <env_name>` and it will auto-fix your python version by replacing a broken links to an actual version of python.
 
 Find the snippet in my [gist](https://gist.github.com/1st/4d8f2bd920cd047ccf1e). Find it by the name `fix_virtualenv`
-
-## Know issues
-
-When I recently upgraded to newer version of **macOS** I found few issues on my MacBook.
-Read below about issues and solutions to them.
-
-Interestengly, but the same (or similar) issues was before, when I've upgraded to **macOS Capitan** and **macOS Mavericks**.
 
 ### Bad file permissions
 
@@ -65,9 +72,11 @@ sudo gem install -n /usr/local/bin [package]
 
 where `[package]` is what you need to install (compass, bundler, etc).
 
+----
 
-HomeBrew
-----------
+## How to setup macOS
+
+### HomeBrew
 
 Before you start, open `Terminal` application and install **Xcode command-line tool**. It's required to install a lot of software on your Mac.
 
@@ -82,16 +91,14 @@ My list of `brew` software (use `brew install [package_name]`):
 - **optional**: `mercurial`, `mongodb`, `rabbitmq`, `zookeeper --with-python`, `boost --with-python`, `jpeg`, `libpng`
 
 
-System changes
-----------
+### System changes
 
 Edit `nano ~/.profile` file and insert [this content](https://gist.github.com/1st/4d8f2bd920cd047ccf1e).
 
 Press `Cmd + O` to save file, `Cmd + X` to exit from nano. Run in terminal `source ~/.profile` to load changes.
 
 
-If you use mercurial
-----------
+### If you use mercurial
 
 Edit `~/.hgrc` and insert info about my user:
 
@@ -101,14 +108,13 @@ username = User Name <user@gmail.com>
 ```
 
 
-Python
-----------
+### Python
 
 - `brew install python` installs `python` and `pip`
 - `pip install virtualenv virtualenvwrapper`
 
 
-### Python virtualenv
+#### Python virtualenv
 
 If your virtual environments are broken, then you need to recreate links to the newer version of Python.
 
@@ -121,7 +127,7 @@ virtualenv ~/.virtualenvs/my_project_name/
 ```
 
 
-### Python 3 support
+#### Python 3 support
 
 - `brew install python3` installs `python3` and `pip3`
 - `pip3 install virtualenv virtualenvwrapper`
@@ -135,7 +141,7 @@ mkvirtualenv3 project_name
 ```
 
 
-### Django completion
+#### Django completion
 
 Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and press `<tab>` button two times.
 
@@ -144,16 +150,14 @@ Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and
 - `source ~/.profile` to affect changes
 
 
-Post-installation
-----------
+## Post-installation
 
 - create virtual environments for projects `mkvirtualenv [env_name]` and run `pip install -r requirements.txt`
 - restore MySQL/Postgres/MongoDB databases
   - mongodb: `mongodump --out backup/` -> `mongorestore backup/`
 
 
-Software
-----------
+## Software
 
 This is my list of sofrware that I use:
 
@@ -176,15 +180,13 @@ This is my list of sofrware that I use:
 - [VLC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
 
-Setup OS X integration with web sites
-----------
+## Setup OS X integration with web sites
 
 - Login to [google.com](http://google.com) and auto-setup OS X to work with: mail, calendar, etc
 - Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup OS X
 
 
-Read also
-----------
+## Read also
 
 - [How to configure Atom editor on El Capitan](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
 - [How To Setup Ubuntu Web Server](https://github.com/1st/setup-web-server)
