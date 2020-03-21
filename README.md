@@ -95,7 +95,7 @@ where `[package]` is what you need to install (compass, bundler, etc).
 Command `brew bundle dump` generates a `Brewfile` with all the packages installed by user. Dependent packages are not listed here. It allows to use this file for the next time to install all listed software wiith one command `brew bundle --force cleanup`.
 
 ```
-rew bundle dump
+brew bundle dump
 brew bundle --force cleanup
 ```
 
