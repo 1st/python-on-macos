@@ -32,6 +32,8 @@ When I upgrade to a next major version of **macOS** it's almost always some prob
 
 ----
 
+## Known problems
+
 ### Upgraded python version via homebrew and virtual env stopped work
 
 How to fix a broken virtual env after python version upgrade?
