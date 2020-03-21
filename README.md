@@ -78,7 +78,7 @@ brew reinstall python
 brew reinstall python@2
 ```
 
-See also [list of known bugs in HomeBrew](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md).
+See also [list of known bugs in HomeBrew](https://docs.brew.sh/Troubleshooting).
 
 ### Ruby gems can't be installed
 
