@@ -5,6 +5,12 @@ How to setup python environment on macOS
 On this page I describe how to setup `python` environment on **macOS Mojave (10.12)**.
 
 
+## Fix broken virtual env after python version upgrade
+
+I've created an alias that is easy to use every time when you upgrade python version via homebrew, and your virtusl env becomes not working. Use it like this `fix_virtualenv <env_name>` and it will auto-fix your python version by replacing a broken links to an actual version of python.
+
+Find the snippet in my [gist](https://gist.github.com/1st/4d8f2bd920cd047ccf1e). Find it by the name `fix_virtualenv`
+
 ## Know issues
 
 When I recently upgraded to newer version of **macOS** I found few issues on my MacBook.
