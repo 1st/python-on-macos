@@ -9,7 +9,7 @@ On this page I describe how to setup `python` environment on **macOS Catalina (1
 
 When I upgrade to a next major version of **macOS** it's almost always some problems appear - some tools stop working, eapecially if you use your system for software development.
 
-- [Upgraded python version via homebrew and virtual env stopped work](#upgraded-python-version-via-homebrew-and-virtual-env-stopped-work)
+- [Virtual env stopped work when I upgraded python via homebrew](#virtual-env-stopped-work-when-i-upgraded-python-via-homebrew-and-)
 - [Bad file permissions](#bad-file-permissions)
 - [Homebrew doesn't work](#homebrew-doesnt-work)
 - [Python doesn't work](#python-doesnt-work)
@@ -35,7 +35,7 @@ When I upgrade to a next major version of **macOS** it's almost always some prob
 
 ## Known problems
 
-### Upgraded python version via homebrew and virtual env stopped work
+### Virtual env stopped work when I upgraded python via homebrew
 
 How to fix a broken virtual env after python version upgrade?
 
