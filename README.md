@@ -197,7 +197,7 @@ This is my list of sofrware that I use:
 
 ### Other software
 
-- From App Store: Pages, Numbers, Keynote, Pixelmator, iDraw, 1Password, The Unarchiver, Pocket
+- From **App Store**: Pages, Numbers, Keynote, Pixelmator, Graphic, 1Password, The Unarchiver, Pocket
 - [DropBox](https://www.dropbox.com)
 - [Skype](http://www.skype.com)
 - [Google Chrome](http://www.google.com/chrome)
