@@ -9,11 +9,26 @@ On this page I describe how to setup `python` environment on **macOS Catalina (1
 
 When I upgrade to a next major version of **macOS** it's almost always some problems appear - some tools stop working, eapecially if you use your system for software development.
 
-- [Upgraded python version via homebrew and virtual env stopped work](#)
-- [Bad file permissions](#)
-- [Homebrew doen't work](#)
-- [Python doesn't work](#)
-- [Ruby gems can't be installed](#)
+- [Upgraded python version via homebrew and virtual env stopped work](#upgraded-python-version-via-homebrew-and-virtual-env-stopped-work)
+- [Bad file permissions](#bad-file-permissions)
+- [Homebrew doesn't work](#homebrew-doesnt-work)
+- [Python doesn't work](#python-doesnt-work)
+- [Ruby gems can't be installed](#ruby-gems-cant-be-installed)
+
+
+## How to setup macOS
+
+- [Install HomeBrew](#homebrew)
+- [Do system changes](#system-changes)
+- [If you use mercurial](#if-you-use-mercurial)
+- [Python setup](#python-setup)
+  - [Python virtualenv](#python-virtualenv)
+  - [Python 3 support](#python-3-support)
+  - [Django completion](#django-completion)
+- [Post-installation](#post-installation)
+- [Useful software](#useful-software)
+- [Setup OS X integration with web sites](#setup-os-x-integration-with-web-sites)
+- [Read more](#read-more)
 
 ----
 
@@ -37,7 +52,7 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 
 Previously it was possible to do like this `sudo chown -R $(whoami):admin /usr/local` but no anymore.
 
-### Homebrew doen't work
+### Homebrew doesn't work
 
 Fix issue with these commands:
 
@@ -108,7 +123,7 @@ username = User Name <user@gmail.com>
 ```
 
 
-### Python
+### Python setup
 
 - `brew install python` installs `python` and `pip`
 - `pip install virtualenv virtualenvwrapper`
@@ -157,7 +172,7 @@ Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and
   - mongodb: `mongodump --out backup/` -> `mongorestore backup/`
 
 
-## Software
+## Useful software
 
 This is my list of sofrware that I use:
 
@@ -186,7 +201,7 @@ This is my list of sofrware that I use:
 - Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup OS X
 
 
-## Read also
+## Read more
 
 - [How to configure Atom editor on El Capitan](https://github.com/1st/python-on-osx/blob/master/ATOM.md)
 - [How To Setup Ubuntu Web Server](https://github.com/1st/setup-web-server)
