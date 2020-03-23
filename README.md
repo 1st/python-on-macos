@@ -28,7 +28,10 @@ When I upgrade to a next major version of **macOS** it's almost always some prob
   - [Django completion](#django-completion)
 - [Post-installation](#post-installation)
 - [Useful software](#useful-software)
-- [Setup OS X integration with web sites](#setup-os-x-integration-with-web-sites)
+  - [Source code editor](#source-code-editor)
+  - [Development tools](#development-tools)
+  - [Other software](#other-software)
+- [Login to web services on macOS](#login-to-web-services-on-macos)
 - [Read more](#read-more)
 
 ----
@@ -192,12 +195,13 @@ This is my list of sofrware that I use:
 
 I use **Visual Studio Code** and you can read [how to configure VS Code on macOS for Python dev](VSCode.md).
 
+In the past I've used [Sublime Text 3](http://www.sublimetext.com/3) and tried [Atom](ATOM.md).
+
 ### Development tools
 
-- [Visual Studio Code](https://code.visualstudio.com). In the past I used also [Sublime Text 3](http://www.sublimetext.com/3)
 - [GitHub Desktop](https://desktop.github.com) - GUI for git repos. In the past I also used [SourceTree](http://www.sourcetreeapp.com)
 - [MySQL Workbench](http://dev.mysql.com/downloads/workbench/). Also I use [Postico](https://eggerapps.at/postico/) for Postgres
-- Docker
+- [Docker](https://docs.docker.com/docker-for-mac/docker-toolbox/)
 
 ### Other software
 
@@ -212,10 +216,10 @@ I use **Visual Studio Code** and you can read [how to configure VS Code on macOS
 - [VLC Video Player](http://www.videolan.org/vlc/download-macosx.html)
 
 
-## Setup OS X integration with web sites
+## Login to web services on macOS
 
-- Login to [google.com](http://google.com) and auto-setup OS X to work with: mail, calendar, etc
-- Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup OS X
+- Login to [google.com](http://google.com) and auto-setup macOS to work with: mail, calendar, etc
+- Login to [facebook](http://facebook.com), [twitter](http://twitter.com) and [linkedin](http://linkedin.com) and allow auto-setup on macOS
 
 
 ## Read more
