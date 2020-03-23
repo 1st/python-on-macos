@@ -138,3 +138,5 @@ Create a file in your project's folder `.vscode/launch.json` and change it's con
     ]
 }
 ```
+
+Now click on the `Run` (Debug) icon on the left side of the VS Code window. And now you can run Django web server, Celery worker or unit tests in debug mode.
