@@ -188,6 +188,10 @@ Add autocompletion in terminal when we type `manage.py` or `django-admin.py` and
 
 This is my list of sofrware that I use:
 
+### Source code editor
+
+I use **Visual Studio Code** and you can read [how to configure VS Code on macOS for Python dev](VSCode.md).
+
 ### Development tools
 
 - [Visual Studio Code](https://code.visualstudio.com). In the past I used also [Sublime Text 3](http://www.sublimetext.com/3)
