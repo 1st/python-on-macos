@@ -7,6 +7,10 @@ Here I will describe how do I use **VS Code** in my daily work for **Python web 
 Download and install VS Code from [code.visualstudio.com](https://code.visualstudio.com) and then follow
 instructions below about how to configure it to be really useful for you.
 
+## Install extensions
+
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - checks your Python and Markdown files on typos. Nice to have
+
 ## Configure VS Code for Python
 
 ## Basic setup of the editor
