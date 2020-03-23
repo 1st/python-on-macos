@@ -10,7 +10,7 @@ Download & Install
 Atom works on top of **node.js**. Install [node.js](http://nodejs.org) via [brew](http://brew.sh):
 
 ```
-brew install mongodb
+brew install node
 ```
 
 Download installation package for [Atom editor](https://atom.io) and install it. Now you can run Atom!
