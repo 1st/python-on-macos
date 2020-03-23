@@ -11,7 +11,11 @@ instructions below about how to configure it to be really useful for you.
 
 ## Basic setup of the editor
 
-Here we will set ruler to show you 80 and 100 characters border, 
+Here we will do next adjustments:
+- [x] set text size to be more comfortable for your eyes
+- [x] add ruler to show `80` and `100` characters border
+- [x] wrap long lines of text to be limited by `99` characters. It especially useful in Markdown files
+- [x] set python linter rules to notify you about long lines of code
 
 Click on Cog Wheel and then click on the Settings option. Then click on the `Open Settings (JSON)` icon
 on the top right side of the window.
@@ -21,7 +25,8 @@ Change `User` settings to:
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 14,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
     "editor.rulers": [
         80,
         100
@@ -38,7 +43,12 @@ Change `User` settings to:
     "python.linting.pycodestyleArgs": [
         "--max-line-length=99"
     ],
-    "window.zoomLevel": 0
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 0,
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.quickSuggestions": false
+    }
 }
 ```
 
