@@ -9,11 +9,22 @@ instructions below about how to configure it to be really useful for you.
 
 ## Install extensions
 
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - adds features such as IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets, and more!
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - must have extension to have fully functional projects. When you open a project - all opened files are restored too, like you want
+- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) - make a one-line unreadable JSON to be formatted for human. Just open command palette and select `Prettify JSON` command - it will do the magic for the currently open file
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - checks your Python and Markdown files on typos. Nice to have
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - makes it easy to build, manage and deploy containerized applications from Visual Studio Code
+
+## How to use Visual Studio Code
+
+The main feature that you need to use again and again is the **Command Palette** that is open with `⇧ ⌘ P` combination.
+In the *Command Palette* you can do almost anything: open a project, transform selection to upper-case, prettify JSON, etc.
+
+Before the first use, I recommend to read [Visual Studio Code: User Interface](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 ## Configure VS Code for Python
 
-## Basic setup of the editor
+### Basic setup of the editor
 
 Here we will do next adjustments:
 - [x] set text size to be more comfortable for your eyes
