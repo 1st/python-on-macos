@@ -14,6 +14,7 @@ instructions below about how to configure it to be really useful for you.
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) - make a one-line unreadable JSON to be formatted for human. Just open command palette and select `Prettify JSON` command - it will do the magic for the currently open file
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - checks your Python and Markdown files on typos. Nice to have
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - makes it easy to build, manage and deploy containerized applications from Visual Studio Code
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) - VSCode `.env` file syntax highlighting
 
 ## How to use Visual Studio Code
 
