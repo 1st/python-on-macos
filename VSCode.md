@@ -11,6 +11,7 @@ instructions below about how to configure it to be really useful for you.
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - adds features such as IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets, and more!
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - must have extension to have fully functional projects. When you open a project - all opened files are restored too, like you want
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows you to work with PRs within the VS Code. No need to open web browser anymore!
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) - make a one-line unreadable JSON to be formatted for human. Just open command palette and select `Prettify JSON` command - it will do the magic for the currently open file
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - checks your Python and Markdown files on typos. Nice to have
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - makes it easy to build, manage and deploy containerized applications from Visual Studio Code
