@@ -167,3 +167,11 @@ Create a file in your project's folder `.vscode/launch.json` and change it's con
 ```
 
 Now click on the `Run` (Debug) icon on the left side of the VS Code window. And now you can run Django web server, Celery worker or unit tests in debug mode.
+
+## Problems and solutions
+
+### `Cmd + T` shows nothing
+
+When you try to `Go To Symbol in workspace` command, or just press `Cmd + T` - the empty list appear *(with just a message `No symbols matching`)*.
+
+To fix this problem, you could open the `Settings` menu and find `Jedi` there *(using the search bar on the top)*. Then uncheck option for `Python: Jedi Enabled` and restart the VS Code. Next time when you will press `Cmd + T` it will index all your files *(it will take a while)* and the list of all symbols across the workspace will appear in the list.
