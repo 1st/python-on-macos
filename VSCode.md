@@ -65,7 +65,13 @@ Change `User` settings to:
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.quickSuggestions": false
-    }
+    },
+    // Sort imports on each file save. Do `pip install isort` to make it working
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
 }
 ```
 
