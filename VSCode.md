@@ -72,6 +72,15 @@ Change `User` settings to:
             "source.organizeImports": true
         }
     },
+    // Settings to be passed to the isort. All options are: https://pycqa.github.io/isort/docs/configuration/options.html
+    "python.sortImports.args": [
+        // In case if you use one import per line
+        "--force-single-line-imports",
+        "--atomic",
+        "--line-length", "100",
+        // In case if you have some folder that needs to be recognized as "local" one, but it's a symlink for example
+        "--project", "common",
+    ]
 }
 ```
 
